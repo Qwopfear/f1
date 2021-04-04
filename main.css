@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@font-face {
+font-family: "Gothic";
+src: url("/Users/dianaberasevich/Desktop/сева/]=09/fonts/Gotic.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Gothic;
+}
+@media (min-width: 575.98px){
+  section {
+    padding: 0 calc(50% - 270px);
+  }
+  h1{
+    font-size: 30px;
+    margin-left: 280px;
+  }
+}
+
+@media (min-width: 767.98px){
+  section {
+    padding: 0 calc(50% - 360px);
+  }
+  h1{
+    font-size: 45px;
+    margin-left: 380px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  section {
+    padding: 0 calc(50% - 480px);
+  }
+  h1{
+    font-size: 60px;
+    margin-left: 300px;
+  }
+}
+
+@media (min-width: 1199.98px){
+  section {
+    padding: 0 calc(50% - 590px);
+  }
+  h1{
+    font-size: 80px;
+    margin-left: 580px;
+  }
+}
+
+header{
+  background-image: url('https://4.downloader.disk.yandex.ru/preview/14f1bf2f30428c20ac7d7b829ed643fb2bdb4e68bbb7b36adeb65a917fadac81/inf/Wfi-l5L0VVIX36xh-MxJY-uEOmkFMhF5gvwzU9Br-mkn7UXmryXUVw7w4dqQGngy3AAbrExyxslsE0cmZG03WQ%3D%3D?uid=1402193020&filename=Page1.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1402193020&tknv=v2&size=3126x1476');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  min-width: 1920px;
+  height:1100px;
+}
+h1,h3{
+  color: white;
+  margin-left: 803px;
+  font-family: Gothic;
+  transition: 1s ease-in-out;
+
+}
+.pomozem{
+  margin-left: 893px;
+  margin-top: 17px;
+}
+.strelochka{
+  margin-right: 240px;
+  font-size:24px;
+  float: right;
+  font-family: Gothic;
+  margin-top: 238px;
+}
+.strelochkin_tekst{
+  writing-mode: vertical-rl;
+  color:white;
+  padding-bottom: 47px;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+.clicked{
+  color:#5352ed;
+}
+.clicke{
+    color:#5352ed;
+}
+
+A {
+   color: white; /* Ð¦Ð²ÐµÑ‚ ÑÑÑ‹Ð»Ð¾Ðº */
+   text-decoration: none;
+}
+
+.Logo{
+  margin-left: 340px;
+  margin-top: 70px;
+  float: left;
+
+}
+.board{
+  color: white;
+  margin-left:  820px;
+  padding-top: 140px;
+  margin-top: 0;
+
+}
+li{
+  display: inline-block;
+  margin-right:57px;
+  color: white;
+  font-size: 14px;
+
+
+}
+h1{
+  margin-top: 180px;
+  font-size: 120px;
+  margin-bottom: 5px;
+}
+h2{
+  margin-left: 930px;
+  font-size:  30px;
+  margin-top: 21px;
+}
+.redline{
+  position: absolute;
+  margin-left: 1210px;
+  margin-top: 40px;
+}
+h3{
+  margin-top: 60px;
+  font-size: 24px;
+
+}
+p{
+  color: white;
+
+  font-size: 16px;
+
+
+}
+.inauto{
+  margin-left: 810px;
+  margin-top: 20px;
+  margin-bottom: 225px;
+  transition: 2s ease-in-out;
+
+}
+.quality{
+  position:absolute;
+  margin-left: 1575px;
+  height: 70px;
+  margin-top: 15px;
+
+}
+.FastText{
+  font-size: 24px;
+  margin-top: 40px;
+  margin-left: 465px;
+  position:absolute;
+  word-spacing: 245px;
+  color: white;
+  font-family: Gothic;
+}
+
+.FastLogo{
+  margin-left: 340px;
+  height: 105px;
+  margin-bottom: 90px;
+}
+.uslugi{
+  background-image: url('https://4.downloader.disk.yandex.ru/preview/acee278744e43befc0d546731a6d306f2efaf07d539c977e101999defb2f5bf1/inf/HVSp89P3OHfyhQK0fALXU321-tFk9kxqBNgt8BCdqq-VMpFaFNZ28u6lNOgSHgiN3t1ccUf54w7oFuQeCO7fWg%3D%3D?uid=1402193020&filename=fon2.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1402193020&tknv=v2&size=3126x1476');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  min-width: 1920px;
+  padding: 0;
+  margin: 0;
+  height: 1026px;
+}
+.dia{
+  margin-left:800px;
+  margin-top: 0px;
+  padding-top: 120px;
+  font-size: 16px;
+  margin-bottom: 70px;
+}
+.servises{
+  margin-left: 285px;
+  font-size:78px;
+  color: #422a8f;
+  font-family: Gothic;
+  margin-bottom:0;
+
+}
+.capital_services{
+  margin-left: 215px;
+  color:white;
+  font-size: 90px;
+  margin-top: -40px;
+  position: absolute;
+  font-family: Gothic;
+  opacity: .9;
+}
+.pares{
+  margin-left: 215px;
+  font-size: 24px;
+}
+.Line{
+  margin-left: 215px;
+  position: absolute;
+
+}
+.strelochka2{
+  margin-right: 240px;
+  font-size:24px;
+  float: right;
+  font-family: Gothic;
+  margin-top: 38px;
+
+}
+.strelochka3{
+  margin-right: 240px;
+  font-size:24px;
+  float: right;
+  font-family: Gothic;
+  margin-top: 260px;
+
+}
+h6{
+  font-size: 16px;
+  color:white;
+}
+
+.dia_text{
+  font-size: 16px;
+}
+.block1{
+  margin-top: -130px;
+   margin-left: 900px;
+
+}
+.block2{
+     margin-left: 900px;
+
+}
+.diagnostics{
+  margin-left: 23px;
+  margin-top: 20px;
+  position: absolute;
+}
+.wheel{
+  margin-left: 346px;
+  margin-top: 20px;
+  position: absolute;
+}
+.diaimg{
+  margin-top: 50px;
+  margin-left: 24px;
+  position: absolute;
+
+}
+.korner{
+  padding-right: 18px;
+  padding-bottom: 18px;
+}
+.korner1{
+  padding-bottom: 18px;
+}
+.korner2{
+  padding-right: 18px;
+}
+.korner3{
+  width: 300px;
+}
+.rep{
+  position: absolute;
+  margin-top: -133px;
+  margin-left: 24px;
+  font-size: 14px;
+  color: white;
+  font-family: Gothic;
+}
+.reg{
+  position: absolute;
+  margin-left: 346px;
+  margin-top: -133px;
+  font-size: 14px;
+  color: white;
+  font-family: Gothic;
+
+}
+.kap{
+  position: absolute;
+  margin-top: -153px;
+  margin-left: 24px;
+  font-size: 14px;
+  color: white;
+  font-family: Gothic;
+}
+.autologo{
+  position: absolute;
+  margin-left: 420px;
+  margin-top: -150px;
+}
+.prem{
+  background: url('https://4.downloader.disk.yandex.ru/preview/62f333be26d43b943103ad66017d7f7ca0ba4d94175dae15ce1a196ed4db1fd7/inf/pUA6KxehzJr0YCGw0iyNhqXeV8RKOf1t9TEmYN5cYGuOh3siq7_z70ecvJa-HryTz_VT8RCu26gitTucI6Xg9g%3D%3D?uid=1402193020&filename=fon3.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1402193020&tknv=v2&size=3126x1476');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  min-width: 1920px;
+  padding: 0;
+  margin: 0;
+  height: 1080px;
+}
+.our_advanteg{
+  padding-top: 100px;
+  float: left;
+
+}
+.advanteg{
+  margin-left: 334px;
+  color:white;
+  font-size: 78px;
+  margin-top: -40px;
+  position: absolute;
+  font-family: Gothic;
+  opacity: .9;
+}
+.shadow_advanteg{
+  margin-left: 384px;
+  font-size:72px;
+  color: #422a8f;
+  font-family: Gothic;
+  margin-bottom: 55px;
+}
+.responsibility{
+  font-size: 24px;
+  margin-left: 334px;
+}
+
+.mexi{
+  padding-top: 106px;
+  font-size: 18px;
+  margin-left: 1120px;
+}
+.i_op{
+  position: absolute;
+  margin-left: 15px;
+  padding-top: 32px;
+}
+.o_op{
+  position: absolute;
+  margin-left: 15px;
+  padding-top: 12px;
+}
+.j_op{
+  position: absolute;
+  margin-left: 15px;
+  padding-top: 18px;
+}
+.s_dwoch{
+  padding-bottom: 60px;
+}
+.rek{
+  position: absolute;
+  font-size: 18px;
+  padding-top:65px;
+  margin-left: 120px;
+}
+.rel{
+  position: absolute;
+  font-size: 18px;
+  padding-top:53px;
+  margin-left: 120px;
+}
+.rem{
+  position: absolute;
+  font-size: 18px;
+  padding-top:55px;
+  margin-left: 150px;
+}
+.rej{
+  position: absolute;
+  font-size: 18px;
+  padding-top:55px;
+  margin-left: 160px;
+}
+.kolesa{
+  margin-top: -500px;
+}
+.o_nal{
+  background: url('https://4.downloader.disk.yandex.ru/preview/50ec25ccc0dfe592c3a34625ea937503401226fa783cce149c812a0325bdf7e8/inf/UM-7B875AcE8qR70vFnqZFeMrGBsG076P2kzc7YySPm01G2aBMT5tjD4O0kO-uDbKWIFFoRZszns24DQcgbiJg%3D%3D?uid=1402193020&filename=%D1%84%D0%BE%D0%BD4.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1402193020&tknv=v2&size=3126x1476');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  min-width: 1920px;
+  padding: 0;
+  margin-top: -115px;
+  height: 1080px;
+}
+.about_kompany{
+  position: absolute;
+  color: white;
+  font-size:72px;
+  padding-top: 109px;
+  margin-left:730px;
+}
+.shadow_company{
+  margin-left:667px;
+  font-size:90px;
+  color: #271a42;
+  font-family: Gothic;
+  padding-top:150px;
+  margin-bottom: 0;
+  padding-bottom:0;
+
+}
+.o_ral{
+  margin-left: 543px;
+  margin-top: 50px;
+}
+.red_stik{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -110px;
+
+}
+h7 {
+  color:white;
+  font-size:24px;
+  position: absolute;
+  margin-left: -750px;
+  margin-top: 84px;
+
+}
+.tesla{
+  font-size: 22px;
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 101px;
+}
+.matrix{
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.taksa{
+  font-size: 18px;
+}
+.sekspotelephonu{
+  background:url("https://4.downloader.disk.yandex.ru/preview/af9de1e3f90a92faa0def99371b01f66a03b7ff7deaf50de3035db946c896974/inf/gDB_2piJf4lZkBQ3VLfVSW7kC23sPWbgpHyREWs7RYxhY3tuNygQ7whL03pb7jYASNh7svBMzs2yok5i3v3vSA%3D%3D?uid=1402193020&filename=%D1%84%D0%BE%D0%BD5.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1402193020&tknv=v2&size=3126x1476");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  min-width: 1920px;
+  padding: 0;
+  margin-top: -115px;
+  height: 1080px;
+}
+.graim{
+  font-size:72px;
+  margin:255px 0 0 0;
+}
+.big_h{
+  margin-top:202px;
+  margin-left:694px;
+}
+.so_easy{
+  position: absolute;
+  margin-left: 765px;
+
+}
+.okay{
+  font-size:24px;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 120px;
+}
+.okay1{
+  font-size:24px;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 75px;
+}
+.okay2{
+  font-size:24px;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 75px;
+}
+.vzryvaj{
+  padding-bottom: 42px;
+  padding-top: 29px;
+}
+.finito{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  margin-top:160px;
+}
