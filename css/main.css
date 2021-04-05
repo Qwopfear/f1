@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @font-face {
 font-family: "Gothic";
-src: url("fonts/Gotic.ttf") format("truetype");
+src: url("../fonts/Gotic.ttf") format("truetype");
 font-style: normal;
 font-weight: normal;
 }
